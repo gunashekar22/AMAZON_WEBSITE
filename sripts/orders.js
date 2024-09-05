@@ -49,6 +49,7 @@ function returnandorder()
                 // console.log(product);
                 const productId=product.productId;
                 let matchingItem=getProduct(productId);
+                const v=dayjs(product.estimatedDeliveryTime)
                 // console.log(matchingItem);
                 ordersHTML+=`<div class="order-details-grid">
               <div class="product-image-container">
@@ -60,7 +61,7 @@ function returnandorder()
                   ${matchingItem.name}
                 </div>
                 <div class="product-delivery-date">
-                  Arriving on: August 15
+                  Arriving on: ${v.format('MMMM DD')}
                 </div>
                 <div class="product-quantity">
                   Quantity: ${product.quantity}

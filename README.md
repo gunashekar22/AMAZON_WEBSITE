@@ -1,4 +1,3 @@
-Here’s a polished and visually appealing version of your Amazon Website Clone description. I've structured it to be engaging, professional, and easy to read. You can add an image placeholder where needed.
 
 ---
 
